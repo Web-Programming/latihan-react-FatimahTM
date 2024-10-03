@@ -1,9 +1,8 @@
 import React from "react";
-import Product from "./Product";
 
 const Home = React.lazy(() => import("./Hello"));
 const Product = React.lazy(() => import("./Product"));
-const Registrasi = React.lazy(() => import(".Registrasi"));
+const Register = React.lazy(() => import("./Registrasi"));
 
 const routes = [
   { path: "/", Component: Home},
