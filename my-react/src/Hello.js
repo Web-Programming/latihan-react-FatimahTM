@@ -10,7 +10,7 @@ function Hello(props) {
 }
 
 Hello.defaultProps = {
-    nama: "Sisilia",
+    nama: "Fatimah",
     pesan: "Selamat Malam"
 };
 
